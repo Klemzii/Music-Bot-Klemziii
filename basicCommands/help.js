@@ -57,7 +57,7 @@ module.exports = {
         }
       )
       .setThumbnail(botUser.avatarURL({ dynamic: true, format: 'png', size: 1024 }))
-      .setImage(`https://cdn.discordapp.com/attachments/1230753778710347837/1231973662005919824/Snitch_Town_Music.png?ex=6627c461&is=662672e1&hm=e5e09af26f928d4ffbaf1236ed82bbd27e6bcf2c29f041cdd51a9bf8b3e993c5&`);
+      .setImage(`https://cdn.discordapp.com/attachments/1170652474563117138/1224660177039396876/MULTI_MUSIC_v1.5.png?ex=6627872b&is=662635ab&hm=f246bf0325cc143ef3bfe9ac16e704c4e9e0fc83d877b2e9f0b0807ddaa7d25b&`);
 
     const button1 = new ButtonBuilder()
       .setLabel('YouTube')
