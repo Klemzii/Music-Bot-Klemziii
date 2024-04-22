@@ -4,12 +4,12 @@ module.exports = {
     name: 'support',
     description: 'support server of this Bot',
     execute(message, args) {
-        const supportServerLink = 'https://discord.gg/FUEHs7RCqz';
+        const supportServerLink = 'https://discord.gg/snitchtown-rp';
         const embed = new EmbedBuilder()
             .setColor('#FFFFFF')
             .setTitle('Support server')
             .setDescription(`Click [here](${supportServerLink}) to join our server.\nWe will be there for you anytime ❤️`)
-            .setThumbnail(`https://cdn.discordapp.com/attachments/1113800537402527903/1119995338359586837/a_e8d3128cee7f07ccec68962a8294f43d.gif`)
+            .setThumbnail(`https://cdn.discordapp.com/attachments/1230753778710347837/1231973662005919824/Snitch_Town_Music.png?ex=6627c461&is=662672e1&hm=e5e09af26f928d4ffbaf1236ed82bbd27e6bcf2c29f041cdd51a9bf8b3e993c5&`)
             .setTimestamp();
 
 
